@@ -10,3 +10,7 @@ Before running, use irispip to install the following:
 - pypdf
 - unstructured
 - sqlalchemy-iris
+
+Web application must be configured in InterSystems IRIS using Rag.disp as the dispatch class. InternProject namespace is used in the code, remember to update the file path in the GetUploads() method of Rag.impl and the connection string in the UploadFile() and MakeQuery() methods if the namespace is to be changed.
+
+A free trial API key for Cohere is used.
